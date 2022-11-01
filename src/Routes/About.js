@@ -1,11 +1,22 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
-    <div style={{fontSize: "1.5rem", marginTop: '30px'}}>
-      This is a fake API call to randomly display users profile.
-    </div>
-  )
-}
+    <article style={{ fontSize: "1.2rem", margin: "30px" }}>
+      <h1>About</h1>
+      lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.
+      lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.
+      lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.
+      lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.
+      lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.
+      lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.
+      lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.
+      lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.
+      lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.
+      lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.
+      lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, quod.
+    </article>
+  );
+};
 
-export default About
+export default About;
