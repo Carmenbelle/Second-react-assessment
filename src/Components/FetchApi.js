@@ -105,7 +105,7 @@ const FetchApi = () => {
               ))}
             </div>
           )}
-          <div className="button-click" style={{ marginTop: "10px" }}>
+          <div className="button-click" style={{ marginTop: "10px", textAlign: "center" }}>
             <button
               type="button"
               disabled={currentPage === 1}
