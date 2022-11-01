@@ -1,10 +1,9 @@
-.App {
-  text-align: center;
-}
-
 nav {
   background: aliceblue;
-  padding: 16px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav a {
@@ -61,4 +60,27 @@ button {
 .home-setting {
   font-size: 3rem;
   color: rgb(1, 99, 99);
+  width: 50vw;
+  height: 40vh;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+   .sub-container {
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    margin-left: 18%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sub-container {
+    display: grid;
+    grid-template-columns: repeat(1,300px);
+    margin: 0 auto;
+    margin-left: 35%;
+  }
 }
