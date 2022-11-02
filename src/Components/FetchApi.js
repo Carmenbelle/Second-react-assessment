@@ -82,7 +82,7 @@ const FetchApi = () => {
         <div className="container" style={{ maxWidth: "80%", margin: "auto" }}>
           <h1 className="users-profile">Users' Profile</h1>
           {loading ? (
-            <div style={{ textAlign: "center" }>Loading...</div>
+            <div style={{ textAlign: "center" }}>Loading...</div>
           ) : (
             <div className="sub-container">
               {paginatedUsers.map((user) => (
